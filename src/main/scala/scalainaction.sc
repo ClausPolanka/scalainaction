@@ -10,4 +10,7 @@ object scalainaction {
   
   time == time2                                   //> res4: Boolean = false
   Time(9, 30) == Time(9, 30)                      //> res5: Boolean = true
+
+  Time(10) - Time()                               //> res6: Int = 600
+  Time(1) - Time(minutes = 30)                    //> res7: Int = 30
 }
