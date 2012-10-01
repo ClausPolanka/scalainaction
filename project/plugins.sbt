@@ -1,2 +1,4 @@
 
-addSbtPlugin("com.typesafe.sbtscalariform" % "sbtscalariform" % "0.5.1")
+name := "scalainaction-sbt-build"
+
+addSbtPlugin("com.typesafe.sbt" % "sbt-scalariform" % "1.0.0")

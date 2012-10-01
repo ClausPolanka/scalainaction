@@ -11,6 +11,7 @@ target/
 .scala_dependencies
 .settings
 .target/
+.worksheet/
 eclipse.sbt
 
 # IntelliJ
