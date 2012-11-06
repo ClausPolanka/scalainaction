@@ -36,4 +36,8 @@ object scalainaction {
                                                   //> res19: List[String] = List(4pm, 4pm)
   for (time <- times if time.hours > 12) yield time.hours - 12 + "pm"
                                                   //> res20: List[String] = List(4pm, 4pm)
+                                                  
+  val donald = new Duck                           //> donald  : Duck = Duck@42a2e5cc
+  donald.fly                                      //> res21: String = I'm flying!
+  donald.swim                                     //> res22: String = I'm swimming!
 }
